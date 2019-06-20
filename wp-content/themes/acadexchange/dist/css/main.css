@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/****************/
+/*****header*****/
+/****************/
+
+html{
+    font-family: Arial;
+    font-size: 16px;
+}
+.title-bg{
+    width: 100%;
+    height: 150px;
+    background-image: url("../../src/assets/accomplishment-achievement-adult-1571877.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav__title{
+    text-indent: -9999999px;
+    position:absolute;
+    visibility: hidden;
+}
+.nav__container{
+    display: flex;
+    background-color: #262f47;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+.nav__item a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 35px;
+    color:#0f0c31;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.h-quote-box{
+    background-color: #0f0c31;
+    color: white;
+    padding: 15px 0;
+}
+.acad{
+    color:#0A246A;
+}
+.dd-quote-box,
+.ab-quote-box{
+    background-color: #262f47;
+    color:white;
+    padding:15px 0;
+}
+.h-quote-content,
+.dd-quote-content,
+.ab-quote-content{
+    font-size: 18px;
+    text-align: center;
+}
+
+.h-pream-box,
+.h-ab-box,
+.ab-ab-main-box,
+.ab-list-suc-main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.h-tt-pream-content,
+.h-ab-tt-content,
+.ab-ab-tt-content,
+.ab-hist-suc-title-content{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.h-desc-pream-content,
+.h-ab-desc-content,
+.ab-ab-desc-content{
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.h-don-main-box{
+    background-image: url("../../src/assets/ball-shaped-business-close-up-335393.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+.dd-don-main-box{
+    background-image: url("../../src/assets/achievement-adult-business-1243524.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.dd-dem-main-box{
+    background-image: url("../../src/assets/brainstorming-business-businesswoman-1229359.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.h-don-main-box,
+.dd-don-main-box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h-don-content-box,
+.h-tw-content-box,
+.dd-don-content-box,
+.dd-dem-content-box,
+.tw-content-box,
+.ab-suc-content-box{
+    width: 50%;
+    background-color: rgba(38,47,71,.5);
+    color:white;
+}
+
+.h-don-content,
+.h-tw-content,
+.dd-don-content,
+.dd-dem-content,
+.tw-content,
+.ab-suc-content{
+    width: 60%;
+    margin: 100px 100px;
+}
+
+.h-don-tt-content,
+.h-tw-tt-content,
+.dd-don-tt-content,
+.dd-dem-tt-content,
+.tw-tt-content,
+.ab-suc-tt-content{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.h-don-desc-content,
+.h-tw-desc-content,
+.dd-don-desc-content,
+.dd-dem-desc-content,
+.tw-desc-content,
+.ab-suc-desc-content{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.h-don-content a,
+.h-tw-content a,
+.dd-don-content a,
+.dd-dem-content a{
+    text-decoration: none;
+    color: white;
+    background-color:#4D5ED1 ;
+    padding:8px 18px;
+    border: none;
+    border-radius: 15px;
+}
+
+.h-don-content a:hover,
+.h-tw-content a:hover,
+.dd-don-content a:hover,
+.dd-dem-content a:hover{
+    color:white;
+    border: 1px  solid white;
+    background-color: transparent;
+    border-radius: 15px;
+}
+.h-log-reg-box{
+    background-color: #262f47;
+    text-align: center;
+    color:white;
+    padding:50px 0;
+}
+.h-log-reg-link{
+    margin-top: 30px;
+}
+.h-log-reg-link a{
+    text-decoration: none;
+    color:white;
+    margin:0 10px;
+    background-color:#4D5ED1;
+    padding:5px 20px;
+    border-radius: 10px;
+}
+.h-log-reg-link a:first-child{
+    padding:5px 30px;
+}
+.h-log-reg-link a:hover{
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+}
+.h-tw-main-box{
+    background-image: url("../../src/assets/action-backlit-beach-1046896.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.ab-suc-main-box{
+    background-image: url("../../src/assets/crumel-davion-large-new.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.h-tw-main-box,
+.dd-dem-main-box,
+.tw-main-box,
+.ab-suc-main-box{
+    display: flex;
+    justify-content: flex-start;
+}
+.h-ab-box a{
+    color: white;
+    background-color: #4D5ED1;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.h-ab-box a:hover{
+    color: black;
+    border:1px solid black;
+    background-color: transparent;
+}
+.h-ab-box{
+    margin-bottom: 40px;
+}
+.ab-hist-suc-title-content{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.cont_proj{
+    margin-top: 20px;
+}
+.title_proj{
+    font-weight: bold;
+}
+.excerp_proj{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.hidden{
+    text-indent: -999999px;
+    position: absolute;
+    visibility: hidden;
+}
+.formulaire{
+    width: 50%;
+    margin: 0 auto;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form{
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top:1px solid rgba(0,0,0, .2);
+}
+label{
+    font-size: 18px;
+}
+.foo{
+    background-color:#0f0c31 ;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    /*position:fixed;*/
+    /*left:0px;
+    bottom:0px;
+    width:100%;*/
+}
